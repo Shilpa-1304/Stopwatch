@@ -1,0 +1,34 @@
+.stopwatch{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    background-image: linear-gradient(midnightblue,rgb(9, 9, 85),rgb(5, 5, 32));
+    color:aquamarine;
+    font-size: 40px;
+    width:fit-content;
+    height: 300px;
+    padding:50px;
+    box-sizing: content-box;
+   margin:5%;
+   border-radius: 5% ;
+   border: white double;
+   box-shadow: 5px 4px rgb(110, 110, 110);
+}
+.buttons{
+    background-color: black;color:wheat;margin:10px;padding:10px;font-size: 15px;
+}
+.buttons:hover{
+    background-color: rgb(56, 56, 56)
+}
+.footer{
+    color:wheat;
+    border: 2px double black;
+    position: relative;
+    width:100%;
+    height: fit-content;
+
+}
+.name{
+    color:whitesmoke;display: inline; margin: 2px;
+}
